@@ -270,7 +270,7 @@ input, select, textarea {
 		}
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-			padding-bottom: 1em;
+			padding-bottom: .5em;
 			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 		}
 
@@ -4154,3 +4154,13 @@ input, select, textarea {
 		}
 
 	}
+
+/* Application Form Page */
+
+.apply {
+	display: flex;
+	flex-wrap: wrap;
+	width: 60%;
+	justify-content: center;
+	margin: 10px auto;
+}
