@@ -1772,6 +1772,7 @@ input, select, textarea {
 		width: -ms-max-content;
 		width: max-content;
 		margin-bottom: 2em;
+		margin-left: 2em;
 	}
 
 		header.major > :first-child {
@@ -1784,7 +1785,7 @@ input, select, textarea {
 				background-color: #ffffff;
 				display: block;
 				height: 2px;
-				margin: 0.325em 0 0.5em 0;
+				margin: 0.325em 0 0.5em 0em;
 				width: 100%;
 			}
 
@@ -3598,7 +3599,9 @@ input, select, textarea {
 			}
 
 			#main > * > .inner {
-				padding: 4em 0 2em 0 ;
+				display: flex;
+				flex: wrap;
+				padding: 2em 0 2em 0 ;
 				margin: 0 auto;
 				max-width: 65em;
 				width: calc(100% - 6em);
@@ -3773,7 +3776,9 @@ input, select, textarea {
 				padding-top: 2.75em;
 			}
 
-		}
+		}	
+
+
 
 /* Menu */
 

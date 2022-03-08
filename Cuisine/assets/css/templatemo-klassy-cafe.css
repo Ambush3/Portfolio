@@ -549,7 +549,7 @@ header
     width: 100%;
   }
   .header-area {
-    background-color: #f7f7f7;
+    background-color: #ffffff;
     padding: 0px 15px;
     height: 100px;
     box-shadow: none;
@@ -677,7 +677,7 @@ banner
 #top .left-content h4 {
   font-family: 'Dancing Script', cursive;
   color: #fff;
-  font-size: 54px;
+  font-size: 70px;
   font-weight: 700;
 }
 
