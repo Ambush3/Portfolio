@@ -1773,6 +1773,7 @@ input, select, textarea {
 		width: max-content;
 		margin-bottom: 2em;
 		margin-left: 2em;
+		
 	}
 
 		header.major > :first-child {
@@ -1809,6 +1810,10 @@ input, select, textarea {
 
 		header.major > p br {
 			display: none;
+		}
+
+		header.major {
+			margin-left: 0;
 		}
 
 	}
@@ -3600,7 +3605,6 @@ input, select, textarea {
 
 			#main > * > .inner {
 				display: flex;
-				flex: wrap;
 				padding: 2em 0 2em 0 ;
 				margin: 0 auto;
 				max-width: 65em;
@@ -3612,6 +3616,7 @@ input, select, textarea {
 					#main > * > .inner {
 						padding: 3em 0 1em 0 ;
 						width: calc(100% - 3em);
+						flex-wrap: wrap;
 					}
 
 				}

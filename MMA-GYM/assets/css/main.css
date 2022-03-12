@@ -132,7 +132,6 @@ input, select, textarea {
 				font-size: 11pt;
 				letter-spacing: 0.0375em;
 			}
-
 		}
 
 	a {
@@ -2069,7 +2068,6 @@ input, select, textarea {
 				.icon.major {
 					font-size: 1em;
 				}
-
 			}
 
 
@@ -3996,8 +3994,7 @@ input, select, textarea {
 	.sign-up-area {
 		display: flex;
 		flex-wrap: wrap;
-		width: 60%;
-		margin-left: 20%;
+		justify-content: center;
 	}
 
 
@@ -4009,8 +4006,8 @@ input, select, textarea {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-		width: 50%;
-		margin-left: 25%;
+		align-content: center;
+		/* margin-left: 25%; */
 	}
 
 	.terms {
