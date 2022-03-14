@@ -1786,16 +1786,15 @@ input, select, textarea {
 				background-color: #ffffff;
 				display: block;
 				height: 2px;
-				margin: 0.325em 0 0.5em 0em;
+				margin: 0.325em 0em 0.5em 0em;
 				width: 100%;
 			}
 
 		header.major > p {
-			font-size: 0.7em;
-			font-weight: 600;
-			letter-spacing: 0.25em;
+			font-size: .9em;
+			font-weight: 400;
+			letter-spacing: 0.15em;
 			margin-bottom: 0;
-			text-transform: uppercase;
 		}
 
 		body.is-ie header.major > :first-child:after {
@@ -1813,11 +1812,146 @@ input, select, textarea {
 		}
 
 		header.major {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			width: 80%;
 			margin-left: 0;
+			margin-top: 20px;
 		}
 
 	}
 
+
+
+
+/* Services Section */
+
+#services {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 0;
+	width: 100%;
+}
+
+.services-combo {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 30px;
+	margin-bottom: 60px;
+	justify-content: center;
+}
+
+.skills_row:not(:last-child) {
+	margin-right: 25px;
+}
+
+.skills_row {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+/* .skills_row:nth-child(2) {
+	margin-top: 60px;
+}
+
+.skills_row:nth-child(1) {
+	margin-top: 65px;
+}
+
+.skills_row:nth-child(3) {
+	margin-top: 70px;
+} */
+
+.skills_item img{
+	width: 120px;
+}
+
+
+.skills_item:not(:last-child) {
+	margin-bottom: 2rem;
+}
+
+.skills_item {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+	border: double 3px solid;
+	border-image-slice: 1;
+	border-radius: 10px;
+	background-origin: border-box;
+	overflow: hidden;
+}
+
+@media (max-width: 1200px) {	
+	.skills_name {
+    font-size: 1.4rem;
+	}
+}
+
+.skills_name {
+	display: flex;
+	flex-wrap: wrap;
+	font-weight: 400;
+	transition: all 0.2s;
+	letter-spacing: 1px;
+}
+
+.service-text {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: center;
+	width: 50%;
+	/* margin-left: 40px; */
+	font-weight: 400;
+}
+
+
+@media (max-width: 960px) {
+	#services {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.skills_item img{
+		width: 70px;
+	}
+
+
+	.skills_row {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 50px;
+		margin-top: 30px;
+	}
+
+	.skills_row:not(:last-child) {
+		margin-right: 10px;
+	}
+
+
+	.services-combo {
+		display: flex;
+		justify-content: space-evenly;
+		margin-top: 0px;
+	}
+
+	.service-text {
+		width: 80%;
+	}
+
+	.skills_row:nth-child(2) {
+		margin-top: 35px;
+	}
+
+}
 /* Form */
 
 	form {
@@ -2795,7 +2929,7 @@ input, select, textarea {
 				display: block;
 				height: 100%;
 				left: 0;
-				opacity: 0.85;
+				opacity: .6;
 				position: absolute;
 				width: 100%;
 				z-index: 2;
@@ -3615,8 +3749,9 @@ input, select, textarea {
 
 					#main > * > .inner {
 						padding: 3em 0 1em 0 ;
-						width: calc(100% - 3em);
+						width: 100%;
 						flex-wrap: wrap;
+						justify-content: center;
 					}
 
 				}
