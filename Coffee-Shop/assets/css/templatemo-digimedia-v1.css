@@ -337,6 +337,7 @@ header
 --------------------------------------------- 
 */
 
+
 .pre-header {
   background-color: #efefef;
   height: 60px;
@@ -1804,8 +1805,7 @@ Blog
 
 .post-item {
   margin-bottom: 62px;
-  display: flex;
-  flex-wrap: wrap;
+ 
 }
 
 .last-post-item {
@@ -1814,7 +1814,8 @@ Blog
 
 .post-item .thumb {
   display: inline-block;
-  float: left;
+  width: 100%;
+  
 }
 
 .post-item .thumb img {
@@ -1823,10 +1824,13 @@ Blog
 }
 
 .post-item .right-content {
-  padding-top: 20px;
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .post-item .right-content span.category {
+  
   font-size: 15px;
   color: #fff;
   padding: 8px 12px;
@@ -1837,9 +1841,9 @@ Blog
 }
 
 .post-item .right-content span.date {
+  width: 100%;
   font-size: 15px;
   color: #afafaf;
-  text-align: right;
   margin-right: 50px;
   margin-top: 4px;
   float: right;
@@ -1849,7 +1853,6 @@ Blog
   font-size: 20px;
   font-weight: 700;
   color: #2a2a2a;
-  margin-top: 20px;
   margin-bottom: 20px;
   line-height: 30px;
 }
@@ -1923,7 +1926,7 @@ form#contact #map iframe {
 }
 
 .fill-form {
-  padding: 80px 60px 80px 30px;
+  padding: 80px 38px 80px 30px;
 }
 
 .fill-form .info-post {
@@ -2129,9 +2132,9 @@ responsive
   .contact-info {
     margin-top: 60px;
   }
-  form#contact {
+  /* form#contact {
     padding: 45px;
-  }
+  } */
 }
 
 @media (max-width: 767px) {
@@ -2226,7 +2229,5 @@ responsive
   .about-us .about-item {
     margin-top: 15px;
   }
-  form#contact {
-    padding: 30px;
-  }
+ 
 }
