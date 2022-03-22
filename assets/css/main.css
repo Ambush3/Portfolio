@@ -195,7 +195,8 @@ input, select, textarea {
 
 	h2 {
 		font-size: 1.75em;
-		margin-bottom: 10px;
+		margin-bottom: 20px;
+		font-weight: 600;
 	}
 
 	h3 {
@@ -204,6 +205,7 @@ input, select, textarea {
 
 	h4 {
 		font-size: 1.1em;
+		font-weight: 600;
 	}
 
 	h5 {
@@ -1959,12 +1961,14 @@ input, select, textarea {
 		width: 70px;
 	}
 
+	.skill-set {
+		flex: 0 0 100%;
+	}
 
 	.skills_row {
 		display: flex;
 		justify-content: center;
 		margin-bottom: 50px;
-		margin-top: 30px;
 	}
 
 	.skills_row:not(:last-child) {
@@ -1980,10 +1984,6 @@ input, select, textarea {
 
 	.service-text {
 		width: 80%;
-	}
-
-	.skills_row:nth-child(2) {
-		margin-top: 35px;
 	}
 
 }
@@ -2517,7 +2517,7 @@ input, select, textarea {
 	ul.icons {
 		cursor: default;
 		list-style: none;
-		padding-left: 0;
+		padding: 1em 0 0 1em;
 	}
 
 		ul.icons li {
@@ -3775,7 +3775,7 @@ input, select, textarea {
 
 			#main > * > .inner {
 				display: flex;
-				padding: 2em 0 2em 0 ;
+				padding: 4em 0 4em 0 ;
 				margin: 0 auto;
 				max-width: 65em;
 				width: calc(100% - 6em);
@@ -3813,7 +3813,7 @@ input, select, textarea {
 		}
 
 			#contact > .inner > :nth-child(2n - 1) {
-				padding: 4em 3em 2em 0 ;
+				padding: 4em 3em 2em 2em ;
 				border-right: solid 1px rgba(212, 212, 255, 0.1);
 				width: 60%;
 			}
@@ -3871,6 +3871,8 @@ input, select, textarea {
 					display: block;
 				}
 
+				
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -3878,6 +3880,8 @@ input, select, textarea {
 			#contact > .inner > :nth-child(2n - 1) {
 				padding: 3em 0 1em 0 ;
 			}
+
+
 
 		}
 
