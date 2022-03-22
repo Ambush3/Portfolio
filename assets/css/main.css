@@ -1829,18 +1829,42 @@ input, select, textarea {
 
 #services {
 	display: flex;
-	justify-content: center;
 	flex-wrap: wrap;
 	padding: 0;
 	width: 100%;
+	justify-content: space-evenly;
+}
+
+#services h2 {
+	width: 100%;
+	display: flex;
+	margin-top: 50px;
+	justify-content: center;
 }
 
 .services-combo {
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 30px;
-	margin-bottom: 60px;
-	justify-content: center;
+	margin-bottom: 50px;
+	justify-content: flex-start;
+}
+
+
+.skills {
+	display: flex;
+	width: 50%;
+	justify-content: space-around;
+}
+
+
+
+.skill-set img {
+	width: 20%;
+	align-self: center;
+}
+
+.skill-set {
+	width: 50%;
 }
 
 .skills_row:not(:last-child) {
@@ -1868,7 +1892,7 @@ input, select, textarea {
 } */
 
 .skills_item img{
-	width: 120px;
+	width: 75px;
 }
 
 
