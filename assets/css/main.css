@@ -177,7 +177,7 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h3, h5, h6 {
 		color: #ffffff;
 		font-weight: 600;
 		line-height: 1.65;
@@ -195,6 +195,7 @@ input, select, textarea {
 
 	h2 {
 		font-size: 1.75em;
+		margin-bottom: 10px;
 	}
 
 	h3 {
@@ -1875,8 +1876,9 @@ input, select, textarea {
     flex-basis: calc(50% - 20px); /* width minus margins */
 }
 
+
 .skills_row:not(:last-child) {
-	margin-right: 25px;
+	margin-right: 50px;
 }
 
 .skills_row {
