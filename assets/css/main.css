@@ -135,6 +135,10 @@ input, select, textarea {
 				font-size: 12pt;
 			}
 
+			#contact {
+				padding: 0 20px 0 20px;
+			}
+
 		}
 
 		@media screen and (max-width: 360px) {
@@ -2040,6 +2044,7 @@ input, select, textarea {
 			form > .fields {
 				width: calc(100% + 3em);
 				margin: -1.5em 0 2em -1.5em;
+				/* padding: 0 20px 0 20px; */
 			}
 
 				form > .fields > .field {
@@ -2059,6 +2064,9 @@ input, select, textarea {
 						width: calc(100% - 1.5em);
 					}
 
+			#contact {
+				padding: 0 20px 0 20px;
+			}
 		}
 
 	label {
