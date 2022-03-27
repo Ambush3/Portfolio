@@ -910,10 +910,10 @@ menu
   margin: 0 auto;
   max-width: 100%;
   min-height: 400px;
-  overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
+  border: 1px solid white;
 }
 
 .card1 {
@@ -938,8 +938,7 @@ menu
   background-color: #fb5849;
   border: 1px solid #fb5849;
   transform: translateY(100%)
-  translateY(120px)
-  translateZ(0);
+  translateY(120px);
   transition: transform 0.5s ease-out;
 }
 
@@ -957,7 +956,7 @@ menu
 }
 
 .description {
-  padding: 0px 30px;
+  padding: 0px 20px;
   color: #fff;
 }
 
