@@ -326,4 +326,11 @@
 
 		});
 
+	// Contact Form
+	// $('#submit').click(function () {
+	// 	if ($.trim($('#message').val()) == '') {
+	// 		alert('Input can not be left blank');
+	// 	}
+	// });
+
 })(jQuery);

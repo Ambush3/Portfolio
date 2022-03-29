@@ -124,7 +124,7 @@
 			<!-- Two -->
 			<section id="two">
 				<div class="inner">
-					<img src="/images/ME.jpeg" alt="">
+					<img src="/images/IMG_7164 Edited.jpeg" alt="">
 					<header class="major">
 						<h2>About me </h2>
 						<p> My name is Aaron. <br>
@@ -230,19 +230,20 @@
 					<div class="fields">
 						<div class="field half">
 							<label for="name">Name</label>
-							<input type="text" name="Name:" id="name" />
+							<input type="text" name="Name:" id="name" required />
 						</div>
 						<div class="field half">
 							<label for="email">Email</label>
-							<input type="text" name="Email:" id="email" />
+							<input type="text" name="Email:" id="email" required />
 						</div>
 						<div class="field">
 							<label for="message">Message</label>
-							<textarea name="Message:" id="message" rows="6"></textarea>
+							<textarea name="Message:" id="message" rows="6" required></textarea>
 						</div>
 					</div>
 					<ul class="actions">
-						<li><input type="submit" value="Send Message" class="primary" name="submit-button"></li>
+						<li><input id="submit" type="submit" value="Send Message" class="primary" name="submit-button">
+						</li>
 						<li><input type="reset" value="Clear"></li>
 					</ul>
 				</form>
