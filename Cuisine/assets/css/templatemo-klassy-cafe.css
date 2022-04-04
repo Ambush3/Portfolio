@@ -938,7 +938,7 @@ menu
   background-color: #fb5849;
   border: 1px solid #fb5849;
   transform: translateY(100%)
-  translateY(120px);
+  translateY(100px);
   transition: transform 0.5s ease-out;
 }
 
