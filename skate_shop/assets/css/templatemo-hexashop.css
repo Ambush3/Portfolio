@@ -202,7 +202,6 @@ body {
 
 .inner-content a {
   font-size: 20px;
-  color: #2a2a2a;
   font-weight: 600;
   transition: all .3s;
 }
@@ -685,7 +684,7 @@ banner
 
 
 .main-banner .left-content .inner-content h4 {
-  color: red;
+  color: white;
   margin-top: -10px;
   font-size: 52px;
   font-weight: 700;
@@ -693,13 +692,7 @@ banner
   top: 50%;
   transform: translateY(-50%);
   width: 85%;
-  background: linear-gradient(45deg, red, white);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-  -webkit-text-fill-color: transparent;
-  display: inline-block
+
 }
 
 .main-banner .left-content .inner-content span {
@@ -708,13 +701,6 @@ banner
   font-weight: 600;
   display: block;
   margin-bottom: 20px;
-    background: linear-gradient(45deg, white, red);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-  -webkit-text-fill-color: transparent;
-  display: inline-block
 }
 
 .main-banner .right-content .right-first-image {
