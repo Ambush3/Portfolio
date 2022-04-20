@@ -1,3 +1,3 @@
 # Portfolio
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+![Alt text](https://imgur.com/a/yYyIXZ0 "Optional title")
