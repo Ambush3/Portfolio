@@ -1829,9 +1829,9 @@ input, select, textarea {
 	}
 
 	.inner img {
-			width: 100%;
-			height: 100%;
-			padding-top: 4em;
+			width: 90%;
+			height: 90%;
+			padding-top: 2em;
 		}
 
 
@@ -2398,11 +2398,6 @@ input, select, textarea {
 				.image.main {
 					margin: 1.5em 0;
 				}
-
-				.inner img {
-					width: 60%;
-					height: 50%;
-		}
 
 			}
 
@@ -3060,9 +3055,15 @@ input, select, textarea {
 				width: 50% !important;
 			}
 
-			
+			.about-me-image img {
+				display: flex;
+				flex-wrap: wrap;
+				width: 100%;
+			}
+
 
 		}
+
 
 		@media screen and (max-width: 736px) {
 
@@ -3076,6 +3077,11 @@ input, select, textarea {
 				.tiles article h3 {
 					font-size: 1.5em;
 				}
+
+			.about-me-image img {
+				width: 75%;
+				margin: 0 auto;
+			}
 
 		}
 
