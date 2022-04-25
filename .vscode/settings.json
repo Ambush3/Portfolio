@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/Salon/index.html"
+    "livePreview.defaultPreviewPath": "/Salon/index.html",
+    "liveServer.settings.port": 5501
 }
