@@ -1,3 +1,10 @@
+/*
+
+TemplateMo 558 Klassy Cafe
+
+https://templatemo.com/tm-558-klassy-cafe
+
+*/
 
 /* ---------------------------------------------
 Table of contents
@@ -70,7 +77,6 @@ header, nav, section, article, aside, footer, hgroup {
 
 * {
   box-sizing: border-box;
-  scroll-behavior: smooth;
 }
 
 html, body {
@@ -542,7 +548,7 @@ header
     width: 100%;
   }
   .header-area {
-    background-color: #ffffff;
+    background-color: #f7f7f7;
     padding: 0px 15px;
     height: 100px;
     box-shadow: none;
@@ -670,7 +676,7 @@ banner
 #top .left-content h4 {
   font-family: 'Dancing Script', cursive;
   color: #fff;
-  font-size: 70px;
+  font-size: 54px;
   font-weight: 700;
 }
 
@@ -910,10 +916,10 @@ menu
   margin: 0 auto;
   max-width: 100%;
   min-height: 400px;
+  overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
-  border: 1px solid white;
 }
 
 .card1 {
@@ -938,7 +944,8 @@ menu
   background-color: #fb5849;
   border: 1px solid #fb5849;
   transform: translateY(100%)
-  translateY(100px);
+  translateY(120px)
+  translateZ(0);
   transition: transform 0.5s ease-out;
 }
 
@@ -956,7 +963,7 @@ menu
 }
 
 .description {
-  padding: 0px 20px;
+  padding: 0px 30px;
   color: #fff;
 }
 
@@ -1546,7 +1553,7 @@ responsive
   }
   #top .left-content {
     text-align: center;
-    padding: 40% 0px;
+    padding: 25% 0px;
   }
   #about .right-content {
     margin-left: 0px;
