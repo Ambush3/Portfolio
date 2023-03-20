@@ -1978,7 +1978,7 @@ input, select, textarea {
 		width: 80%;
 	}
 
-	.skills_row:nth-child(3) {
+	.skills_row:nth-child(2) {
 		display: none;
 	}
 }
