@@ -1836,7 +1836,6 @@ input, select, textarea {
 
 
 /* Services Section */
-
 #services {
 	display: flex;
 	flex-wrap: wrap;
@@ -1867,7 +1866,6 @@ input, select, textarea {
 	margin-bottom: 0;
 }
 
-
 .skills {
 	display: flex;
     flex-flow: row wrap;
@@ -1897,19 +1895,6 @@ input, select, textarea {
 	align-items: center;
 	margin-top: -20px;
 }
-
-
-/* .skills_row:nth-child(2) {
-	margin-top: 60px;
-}
-
-.skills_row:nth-child(1) {
-	margin-top: 65px;
-}
-
-.skills_row:nth-child(3) {
-	margin-top: 70px;
-} */
 
 .skills_item img{
 	width: 75px;
@@ -1993,7 +1978,11 @@ input, select, textarea {
 		width: 80%;
 	}
 
+	.skills_row:nth-child(3) {
+		display: none;
+	}
 }
+
 /* Form */
 
 	form {
