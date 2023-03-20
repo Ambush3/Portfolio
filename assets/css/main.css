@@ -1983,6 +1983,95 @@ input, select, textarea {
 	}
 }
 
+/* Resume */
+.resumeBody {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.resumeHeader {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	width: 100%;
+	align-items: center;
+}
+
+.resumeBody main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+}
+
+.resumeBody h2 {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+
+.resumeBody section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.resumeBody section img {
+	width: 90%;
+
+}
+
+/* Mobile Resume Resolution */
+@media (max-width: 960px) {
+	.resumeBody {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
+
+	.resumeHeader {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		width: 100%;
+		align-items: center;
+	}
+
+	.resumeBody main {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+
+	.resumeBody h2 {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin-top: 30px;
+		margin-bottom: 0;
+	}
+
+	.resumeBody section {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		width: 100%;
+	}
+
+	.resumeBody section img {
+		width: 90%;
+	}
+}
+	
+
+
 /* Form */
 
 	form {
