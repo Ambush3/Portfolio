@@ -4006,8 +4006,18 @@ input, select, textarea {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
+		align-items: center;
+		text-align: center;
 	}
 
+	.sign-up-area p {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+
+	}
 
 	.container {
 		text-align: center;
@@ -4025,6 +4035,59 @@ input, select, textarea {
 	.terms {
 		font-size: 5px;
 	}
+	
+
+/* Mobile Screen for Sign Up Form */
+@media screen and (max-width: 480px) {
+	.form .sign-up input {
+	  width: 100%;
+	  margin: 0;
+	}
+	
+	.clearfix {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-content: center;
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.terms {
+		font-size: 10px;
+	}
+
+	.sign-up-area {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+
+	.sign-up-area p {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+
+	}
+
+	.container {
+		text-align: center;
+	}
+
+	.clearfix {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-content: center;
+		width: 100%;
+		margin-left: 0;
+	}
+}
+
 
 /* Full-width input fields */
 	  input[type=text], input[type=password] {
