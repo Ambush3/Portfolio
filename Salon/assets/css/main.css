@@ -2422,8 +2422,8 @@ input, select, textarea {
 	.image img {
 		width: 100%;
 		height: auto;
-		max-width: 300px;
-		max-height: 300px;
+		/* max-width: 300px;
+		max-height: 300px; */
 	}
 
 		.image.left, .image.right {
@@ -3821,10 +3821,10 @@ input, select, textarea {
 					width: 100%;
 				}
 
-			.wrapper.spotlight .content {
-				width: 100%;
-				-ms-flex: 2;
-			}
+						.wrapper.spotlight .content {
+							width: 100%;
+							flex: 2;
+						}
 
 			.wrapper.spotlight:nth-child(2n - 1) .inner {
 				-moz-flex-direction: row-reverse;
