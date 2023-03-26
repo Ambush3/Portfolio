@@ -2419,10 +2419,12 @@ input, select, textarea {
 		position: relative;
 	}
 
-		.image img {
-			border-radius: 5px;
-			display: block;
-		}
+	.image img {
+		width: 100%;
+		height: auto;
+		max-width: 300px;
+		max-height: 300px;
+	}
 
 		.image.left, .image.right {
 			max-width: 40%;
