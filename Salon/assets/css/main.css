@@ -2992,44 +2992,51 @@ input, select, textarea {
 
 /* Features */
 
-	.features {
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		-moz-flex-wrap: wrap;
-		-webkit-flex-wrap: wrap;
-		-ms-flex-wrap: wrap;
-		flex-wrap: wrap;
-		margin: 0 0 2em 0;
-	}
+.features {
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 0 0 2em 0;
+}
 
-		.features article {
-			padding: 1.75em 1.75em 0.1em 1.75em ;
-			background-color: #353849;
-			border-radius: 5px;
-			margin: 1.5em 3em 1.5em 0;
-			width: calc(50% - 1.5em);
-		}
+.features article {
+	padding: 1.75em 1.75em 0.1em 1.75em;
+	background-color: #353849;
+	border-radius: 5px;
+	margin: 1.5em 3em 1.5em 0;
+	width: calc(50% - 1.5em);
+}
 
-			.features article:nth-child(2n) {
-				margin-right: 0;
-			}
+.features article:nth-child(2n) {
+	margin-right: 0;
+}
 
-			.features article .image {
-				border-radius: 5px 5px 0 0;
-				display: block;
-				margin-bottom: 1.75em;
-				margin-left: -1.75em;
-				margin-top: -1.75em;
-				position: relative;
-				width: calc(100% + 3.5em);
-			}
+.features article .image {
+	border-radius: 5px 5px 0 0;
+	display: block;
+	margin-bottom: 1.75em;
+	margin-left: -1.75em;
+	margin-top: -1.75em;
+	position: relative;
+	width: calc(100% + 3.5em);
+	height: 500px;
+	/* set a fixed height */
+	overflow: hidden;
+	/* hide image overflow */
+}
 
-				.features article .image img {
-					border-radius: 5px 5px 0 0;
-					width: 100%;
-				}
+.features article .image img {
+	border-radius: 5px 5px 0 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	/* ensure aspect ratio is maintained */
+}
 
 
 		@media screen and (max-width: 980px) {
