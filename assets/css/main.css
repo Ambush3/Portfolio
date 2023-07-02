@@ -1829,10 +1829,10 @@ input, select, textarea {
 	}
 
 	.inner img {
-			width: 90%;
-			height: 90%;
-			padding-top: 2em;
-		}
+		width: 90%;
+		height: 90%;
+		padding-top: 4em;
+	}
 
 
 /* Services Section */
